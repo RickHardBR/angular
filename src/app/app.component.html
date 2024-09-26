@@ -1,0 +1,22 @@
+<body>
+  <navigator></navigator>
+  <div class="container">
+    <hello name="{{ name }}"></hello>
+    <p>Start editing to see sone magic happen :)</p>
+    <h1>Testes By RickHard</h1>
+    <img src="https://unsplash.it/300?image=999" alt="breakfast" />
+  </div>
+  <div class="botoes">
+    <!-- DATA BINDING = Associação de Dados-->
+
+    <!-- INTERPOLAÇÃO-->
+    <my-button label="{{ buttonLabelCar }}"></my-button>
+    <my-button label="{{ buttonLabelPay }}"></my-button>
+
+    <!-- PROPERTY BINDING = Asociando uma Propriedade-->
+    <my-button [label]="buttonLabeLClean"></my-button>
+    <my-button [label]="buttonLabeLOut"></my-button>
+  </div>
+  <!-- TWO WAY DATA BINDING = Asociando uma Propriedade-->
+  <entry-data></entry-data>
+</body>

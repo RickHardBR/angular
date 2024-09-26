@@ -1,0 +1,25 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+navigator {
+  display: flex;
+  all: unset;
+  justify-content: center;
+  background-color: rgb(195, 255, 0);
+  width: 100%;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}

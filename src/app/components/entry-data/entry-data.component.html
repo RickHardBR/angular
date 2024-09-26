@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="imputs">
+    <input
+      type="text"
+      [value]="textholder"
+      (input)="textholder = $any($event.target).value"
+      placeholder="digite seu e-mail"
+    />
+    <div class="email">
+      Seu e-mail é:
+      <p>{{ textholder }}</p>
+    </div>
+  </div>
+
+  <div class="imputs">
+    <input
+      type="password"
+      [(ngModel)]="passholder"
+      placeholder="digite sua senha"
+    />
+    <div class="email">
+      Sua senha é:
+      <p [style.color]="color">{{ passholder }}</p>
+    </div>
+  </div>
+</div>
